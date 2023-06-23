@@ -1,0 +1,22 @@
+<div class="small modal fade" id="registered-modal">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content ">
+            <div class="modal-header">
+                <h5 id="modal-title" class="modal-title"><i class="success fa fa-check-circle"></i> 注册成功</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div id="modal-body" class="modal-body">
+                <p>
+                    UID: <span id="registered-uid"></span><br/>
+                    用户名: <span id="registered-username"></span><br/>
+                </p>
+                请妥善保管好您的个人信息
+            </div>
+            <div id="modal-footer" class="modal-footer">
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal" onclick="into('/home')">
+                    确定
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
